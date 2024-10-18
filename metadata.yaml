@@ -1,0 +1,8 @@
+name: executable 
+version: 0.0.1
+description: This is a basic cmake executable 
+dependencies: []
+git_url: https://github.com/frate-templates/frate-go 
+license: MIT
+cmake_target: MyApp::Core
+
