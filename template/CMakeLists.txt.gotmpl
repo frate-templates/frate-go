@@ -13,9 +13,6 @@ project(
 
 include(FetchContent)
 
-
-
-
 {{- range .Dependencies }}
 FetchContent_Declare(
     {{ .Name }}
